@@ -3,7 +3,13 @@
     padding: 2rem;
     background-color: rgb(248, 201, 113);
 }
-.collapse {
-    justify-content: center;
+.navbar-collapse {
     align-items: center;
+    justify-content: space-between;
+}
+.colormenu {
+    color: black;
+}
+.textomenu {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
