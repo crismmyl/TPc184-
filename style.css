@@ -1,15 +1,127 @@
+@import url('https://fonts.google.com/');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,400&display=swap');
 
-.navbar {
-    padding: 2rem;
-    background-color: rgb(248, 201, 113);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family:serif,  monospace,  sans-serif;
+   
+    background:linear-gradient(90deg, #0033cc,white);
+}
+
+
+
+.navbar{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1rem;
+    background-color: rgb(231, 235, 35);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    margin: 0;
+}
+
+article{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    background:linear-gradient(90deg, #0033cc,white);
+    p
+}
+#carouselExample{
+    background-color: beige;
+}
+
+.text-center{
+  
+}
+
+#cat {
+    color:black;
+    text-align : center;
+}
+
+#frase{
+    color:black;
+    text-align: center;
+}
+
+footer {
+    background-color:rgb(231, 235, 35);
+    padding: 25px 2px 25px 2px; 
+    margin-top: 20px;  
+}
+li:hover{
+    background-color: rgb(224, 200, 141);
+}
+.titulo{
+    
+    background:linear-gradient(360deg, #1717df ,#0c0c54 );
+}
+/*estilo para el formulario*/
+.form{
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: 5% auto auto auto;
+    
+}
+ 
+.estilo{
+font-family: 'Montserrat', sans-serif;
+min-width: 100vh;
+width: 100%;
+display: flex;
+}
+.input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding:0.8 1em ;
+    border: none;
+    outline: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+#enviar {
+    font-family: inherit;
+    border-radius: 1rem;
+    background-color:rgb(39, 171, 227) ;
+    height: 2rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.contenido{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5;
+}
+.input--mensaje{
+    resize: none;
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    height: 10rem;
+}
+/*raptor class*/
+.container{
+    width: 50%;
+    border: 2px solid black;
+}
+div h2 ,p{
+ color:black;
 }
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
-}
-.colormenu {
-    color: black;
-}
-.textomenu {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
